@@ -39,9 +39,4 @@ def index():
 
     return redirect(url_for('index'))
 
-@app.rout("/test/")
-def test():
-    print("test!")
-
-
 
